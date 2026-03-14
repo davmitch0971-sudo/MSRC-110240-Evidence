@@ -7,3 +7,8 @@ LEAKED_HEADER: Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9...[TRU
 ----------------------------------------------------------------
 nohup: ignoring input
 Ghostbuster Listener V2 active on 8080...
+
+[2026-03-14 17:25:53] [CAPTURE_NODE_01] INBOUND REDIRECT LEAK
+USER_AGENT: Mozilla/5.0 (Microsoft Power Platform Runtime)
+LEAKED_HEADER: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkRhdmlkIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+----------------------------------------------------------------
