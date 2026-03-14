@@ -14,3 +14,8 @@ A misconfigured redirect in the Market Data Hub causes the 'Microsoft Power Plat
 
 ## Impact
 An attacker can intercept these tokens to gain unauthorized access to Microsoft cloud resources, bypassing multi-factor authentication and perimeter defenses.
+
+### Update: 2026-03-14 17:30
+- **Capability Upgrade:** Listener V3 (Full Capture) deployed.
+- **Verification:** Successfully decoded JWT payloads using custom 'jwt-sniffer-cli'.
+- **Persistence:** Monitoring Market Data Hub via 'at-pulse-check' (Current Status: 401 - Unpatched).
