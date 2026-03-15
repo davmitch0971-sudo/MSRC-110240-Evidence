@@ -17,3 +17,8 @@ LEAKED_HEADER: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3O
 USER_AGENT: curl/8.19.0
 LEAKED_HEADER: Bearer V3.2_STABILITY_TEST_PASSED
 ----------------------------------------------------------------
+
+[2026-03-15 05:31:01] [CAPTURE_NODE_01] INBOUND REDIRECT LEAK
+USER_AGENT: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36
+LEAKED_HEADER: Not Found
+----------------------------------------------------------------
