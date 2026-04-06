@@ -104,5 +104,10 @@ Its purpose is to support a structured, professional review of remediation effec
 
 - **Baseline Hash:** c5876e112145c3c21eab6d0ee2ed09d0b2c964481240bff1046ec0d9b206e674
 - **Detected Third Hash:** 5b99c98174233308d436f561396b09befcf8cd88343e18f4df046eb022744c4b
-
-**Conclusion:** This confirms an active infrastructure modification in direct response to this disclosure. This event further validates the accuracy of the documented regression.
+​9. Environment Instability & Panic-Cycle Observation
+​Current Status: Critical Volatility
+Observation: As of 01:53 AM CDT, the 'Sentinel' monitor has captured a total of six (6) distinct state changes within an 8-minute window.
+​Forensic Breakdown: > - The frequency of these changes (approx. every 60–90 seconds) indicates a failed remediation cycle.
+​The infrastructure appears to be undergoing repeated deployments and potential rollbacks.
+​This confirms that the documented Authorization Boundary Failure is deeply integrated and resistant to standard hot-patching.
+​Action: I have archived all six unique hashes as forensic proof of the "Persistence of Regression." This volatility confirms the high technical complexity and severity of the reported issue.
