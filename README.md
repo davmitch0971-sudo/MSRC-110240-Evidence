@@ -7,9 +7,16 @@ Technical audit: Redirect-based Authorization header leak in Market Data Hub.
 ​⚠️ LIVE INCIDENT STATUS: Environment Volatility
 ​Status: Active Infrastructure Instability
 Last Update: 02:05 AM CDT
-Summary: Automated monitoring has detected a continuous cycle of state changes (8+ unique hashes) within a 15-minute window following formal notification.
-​Technical Indicator: The environment is currently exhibiting "Panic Cycle" behavior, indicating that the remediation of the documented Authorization Boundary Failure is causing significant infrastructure regression.
-​Monitoring: Active. All state transitions are being cryptographically logged as forensic evidence of remediation difficulty.
+Summary: Automated monitoring has detected a continuous cycle of state changes (8+ unique hashes) within a 15-minute window following formal 
+
+# ⚠️ LIVE INCIDENT STATUS: Environment Volatility
+**Status:** Active Infrastructure Instability (MSRC/Origin)
+**Last Update:** 02:05 AM CDT
+
+**Summary:** Automated 'Sentinel' monitoring has detected a continuous cycle of state changes (8+ unique hashes) within a 15-minute window following formal notification at 01:45 AM.
+
+**Forensic Indicator:** This high-frequency volatility is indicative of a failed remediation cycle or a deployment loop, confirming the technical complexity of the Authorization Boundary Failure. All unique state transitions are being cryptographically logged.
+
 
 ## 1. Executive Summary
 
