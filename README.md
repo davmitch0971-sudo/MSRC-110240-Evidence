@@ -42,6 +42,15 @@ Readme update
 ​The Archive: I have 60+ forensic exhibits anchored by SHA-256 hash a64c682dda040d9754c0f5743fed988659ce1a4256416e6c5e4ae408c7b5c9af. This evidence is stored in a verified third-party repository and cannot be deleted by your platforms.
 
 
+Evidence of Disclosure🚨
+​The following internal configuration was extracted from the live production source at https://138.68.20.131/:
+
+​window.__OPENCLAW_ASSISTANT_NAME__="Bukhari";
+
+window.__OPENCLAW_ASSISTANT_AVATAR__="🔗";
+
+script src="./assets/index-BeKTXH1m.js"
+
 
 ​⚠️ LIVE INCIDENT STATUS: Environment Volatility
 ​Status: Active Infrastructure Instability
