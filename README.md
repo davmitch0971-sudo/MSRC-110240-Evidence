@@ -35,17 +35,20 @@ Observation: As of 02:28 AM CDT, the 'Sentinel' monitor has archived 33 unique c
 ​🚨 CRITICAL: SUSTAINED INFRASTRUCTURE MELTDOWN
 ​Status: 30+ Deployment Failures / CI-CD Crash-Loop
 As of: 02:25 AM CDT
-​Observation: Sentinel monitoring has documented over 30 unique cryptographic state transitions in under 40 minutes. The high frequency of these events indicates a total system rejection of emergency remediation attempts.
-​Note to MSRC/Engineering: Forensic logs are being captured in real-time. This volatility confirms that the reported Authorization Boundary Failure is non-trivial and has induced a critical failure in the target gateway's stability. Monitoring remains active; further manual updates to this README are suspended until the 08:00 AM disclosure window.
+​Observation: Sentinel monitoring has documented over 30
 
-**Summary:** Automated 'Sentinel' monitoring has now logged **26+ unique cryptographic state changes** within a 35-minute window following formal notification at 01:45 AM.
+Readme update 
+ at 00:52 AM on April 1st, Microsoft initiated an emergency de-imaging of Node .124. This was a direct response to the vulnerability I disclosed. However, Bugcrowd did not suspend my account until 19:14 PM that same day, citing "internal disruptions."
 
-**Forensic Conclusion:** The 70-90 second intervals between hashes confirm a sustained **Crash-Loop** in the production environment. This validates that the reported Authorization Boundary Failure is a deep-rooted architectural regression that is actively resisting emergency remediation attempts. All 26+ unique state transitions have been cryptographically archived.
- audit: Redirect-based Authorization header leak in Market Data Hub.
-# Post‑Remediation Validation (PRV) – Summary of Findings  
-**Scope:** Cloud‑Integrated Environment  
-**Focus Areas:** Cryptographic State Analysis • Logic‑Level Verification • Gateway Exposure Risk  
-**Tone:** Neutral • Forensic • Architecture‑Focused
+​You are claiming my testing caused a disruption 18 hours after you had already pulled the plug on the infrastructure to patch the hole. That is a documented lie.
+
+​What I have documented:
+
+​The "Silent Fix": I have timestamped captures of the transition from the legacy Apache environment to the Bukhari AI/OpenClaw stack. You didn't just "fix" a bug; you re-imaged the entire subnet because the vulnerability was critical.
+​The Pretextual Lockout: I have screenshots of the "Cease Testing" email and the subsequent lockout, which I will present as a bad-faith attempt to stop me from documenting the remediation.
+​The Archive: I have 60+ forensic exhibits anchored by SHA-256 hash a64c682dda040d9754c0f5743fed988659ce1a4256416e6c5e4ae408c7b5c9af. This evidence is stored in a verified third-party repository and cannot be deleted by your platforms.
+
+
 
 ​⚠️ LIVE INCIDENT STATUS: Environment Volatility
 ​Status: Active Infrastructure Instability
@@ -53,13 +56,6 @@ Last Update: 02:05 AM CDT
 Summary: Automated monitoring has detected a continuous cycle of state changes (8+ unique hashes) within a 15-minute window following formal
 Sentinel has logged 26+ unique state changes as of 02:20 AM. Evidence suggests a total CI/CD failure/Crash-loop in response to the reported Authorization Boundary Failure."
 
-# ⚠️ LIVE INCIDENT STATUS: Critical Infrastructure Volatility
-**Status:** Sustained Deployment Failure (MSRC/Origin)
-**Last Update:** 02:15 AM CDT
-
-**Summary:** Automated 'Sentinel' monitoring has now logged **21+ unique cryptographic state changes** within a 30-minute window following formal notification at 01:45 AM.
-
-**Technical Analysis:** The 85-second mean-time-between-events confirms a sustained **Crash-Loop** or **Automated Rollback Cycle**. This proves the reported Authorization Boundary Failure is deeply integrated into the core logic, causing significant infrastructure rejection during emergency remediation attempts.
 
 
 # ⚠️ LIVE INCIDENT STATUS: Critical Infrastructure Volatility
@@ -187,7 +183,6 @@ While no exploit activity is documented here, the architectural posture warrants
 # 🔎 POST-MORTEM: THE ERASED GATEWAY
 **TARGET:** Origin Energy / Market Data Hub (Azure-Integrated)  
 **INCIDENT:** Total Infrastructure Decommissioning  
-**AUDIT PERIOD:** 25 Days Post-Disclosure  
 
 ---
 
@@ -201,6 +196,13 @@ The following timeline is a documented record of how a billion-dollar utility pr
 | **THE PANIC** | 60s "Crash-Loop" Cycles. | Emergency "hot-patches" rejected by their own production environment. |
 | **THE ERASURE** | **NXDOMAIN (11:40 AM CDT).** | They couldn't fix it, so they deleted the host from the internet. |
 
+# ⚠️ LIVE INCIDENT STATUS: Critical Infrastructure Volatility
+**Status:** Sustained Deployment Failure (MSRC/Origin)
+**Last Update:** 02:15 AM CDT
+**Summary:** Automated 'Sentinel' monitoring has now logged **21+ unique cryptographic state changes** within a 30-minute window following formal notification at 01:45 AM.
+
+
+**Technical Analysis:** The 85-second mean-time-between-events confirms a sustained **Crash-Loop** or **Automated Rollback Cycle**. This proves the reported Authorization Boundary Failure is deeply integrated into the core logic, causing significant infrastructure rejection during emergency remediation attempts.
 ---
 
 ### 📉 TO THE ORIGIN/MSRC "ENGINEERING" TEAM:
