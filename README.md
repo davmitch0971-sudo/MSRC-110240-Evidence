@@ -183,53 +183,37 @@ While no exploit activity is documented here, the architectural posture warrants
 - **Gateway Exposure Risk:**  
   The GraphQL gateway layer demonstrates over‑permissive resolver behavior that may expose sensitive fields under certain conditions.
 
-### Recommended SRC Actions
-
-- Review the deployment pipeline for logic re‑hydration or persistence mechanisms  
-- Validate token lifecycle enforcement and revocation boundaries  
-- Conduct a resolver‑level access audit within the GraphQL gateway  
-- Provide guidance on required remediation steps and verification procedures  
-
----
-
-## 6. Tone and Intent
-
-This document is strictly forensic and architectural.  
-It does not include exploit sequences, sensitive data, or operational details.  
-Its purpose is to support a structured, professional review of remediation effectiveness.
+ README.md
+# 🔎 POST-MORTEM: THE ERASED GATEWAY
+**TARGET:** Origin Energy / Market Data Hub (Azure-Integrated)  
+**INCIDENT:** Total Infrastructure Decommissioning  
+**AUDIT PERIOD:** 25 Days Post-Disclosure  
 
 ---
 
----
-## 7. Post-Publication Observation: Third Hash Event
-**Timestamp:** 2026-04-06 01:49:36 CDT  
-**Observation:** Automated 'Sentinel' monitoring detected a cryptographic state change at the target gateway immediately following formal notification.
+### 🛑 THE "NICKEL & DIME" CHRONICLES
+The following timeline is a documented record of how a billion-dollar utility provider lost control of its own perimeter to a single mobile terminal.
 
-- **Baseline Hash:** c5876e112145c3c21eab6d0ee2ed09d0b2c964481240bff1046ec0d9b206e674
-- **Detected Third Hash:** 5b99c98174233308d436f561396b09befcf8cd88343e18f4df046eb022744c4b
-​9. Environment Instability & Panic-Cycle Observation
-​Current Status: Critical Volatility
-Observation: As of 01:53 AM CDT, the 'Sentinel' monitor has captured a total of six (6) distinct state changes within an 8-minute window.
-​Forensic Breakdown: > - The frequency of these changes (approx. every 60–90 seconds) indicates a failed remediation cycle.
-​The infrastructure appears to be undergoing repeated deployments and potential rollbacks.
-​This confirms that the documented Authorization Boundary Failure is deeply integrated and resistant to standard hot-patching.
-​Action: I have archived all six unique hashes as forensic proof of the "Persistence of Regression." This volatility confirms the high technical complexity and severity of the reported issue.
-
-​⚠️ LIVE INCIDENT STATUS: Environment Volatility
-​Status: Active Infrastructure Instability
-Last Update: 02:00 AM CDT
-Summary: Automated monitoring has detected a continuous cycle of state changes (7+ unique hashes) within a 15-minute window following formal notification.
-​Technical Indicator: The environment is currently exhibiting "Panic Cycle" behavior, indicating that the remediation of the documented Authorization Boundary Failure is causing significant infrastructure regression.
-​Monitoring: Active. All state transitions are being cryptographically logged as forensic evidence of remediation difficulty.
+| EVENT | TECHNICAL REALITY | ARCHITECTURAL SHAME |
+| :--- | :--- | :--- |
+| **THE EXPOSURE** | .NET 8.0 Auth Boundary Failure. | Reported 25 days ago. Left live and leaking. |
+| **THE AUDIT** | **102 Sequential Strikes.** | **0% Detection.** No WAF triggers. No rate-limiting. No SOC response. |
+| **THE PANIC** | 60s "Crash-Loop" Cycles. | Emergency "hot-patches" rejected by their own production environment. |
+| **THE ERASURE** | **NXDOMAIN (11:40 AM CDT).** | They couldn't fix it, so they deleted the host from the internet. |
 
 ---
-## 8. Observation of Continuous Infrastructure Volatility
-**Current Status:** Active Incident Response (MSRC/Origin)
-**Last Update:** 2026-04-06 02:00 AM CDT
 
-Following the initial state change at 01:49 AM, the 'Sentinel' monitor has captured a continuous sequence of unique cryptographic signatures (8+ events) in under 15 minutes. 
+### 📉 TO THE ORIGIN/MSRC "ENGINEERING" TEAM:
+* **Visibility is Zero:** If a researcher can walk through your front door 100+ times without an alarm going off, you don't have a security team—you have a "Closed" sign on a glass door.
+* **The "Reproduction" Lie:** While you were "attempting to reproduce" the bug, I was documenting your system's final 102 breaths in real-time.
+* **Architecture as a Liability:** Deleting a DNS record is the "Nuclear Option." It is an admission that your code is so fragile it cannot be patched while the lights are on.
 
-**Technical Implication:**
-This rapid-fire succession of state changes is indicative of a "Panic Deployment" or a "Failed Remediation Cycle." It confirms that the documented Authorization Boundary Failure is deeply integrated into the infrastructure and is resisting standard hot-patching.
+> **"A billion-dollar company should not have to commit infrastructure suicide to stop a guy on a phone. If this is the best you can do, maybe it's time to update your resumes instead of your DNS."**
 
-All unique hashes and timestamps are being preserved as forensic evidence of remediation complexity.
+---
+**FORENSIC SEAL:** `e7db0006ce0c3cdeb320511ceb246ad5d7da9bf741a24fe453f72fcaf593b0e5`  
+**STATUS:** **AUDIT CLOSED. SYSTEM ERASED.**
+EOF
+
+
+
