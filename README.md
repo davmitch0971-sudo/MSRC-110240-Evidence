@@ -238,5 +238,16 @@ I've documented a total loss of corporate control where Microsoft and its partne
 **STATUS:** **AUDIT CLOSED. SYSTEM ERASED.**
 EOF
 
+🚨Readme update from Microsoft.
+After careful investigation, this case has been assessed as not a vulnerability and does not meet Microsoft's bar for immediate servicing. The header is cleared before the URI is updated. There is no conditional check on whether the redirect is same-origin or cross-origin, it is stripped unconditionally for all redirects.
+MSRC prioritizes vulnerabilities that are assessed as an Important or Critical severity. Since this case was below the bar for immediate servicing, it is not eligible for bounty, and no CVE will be issued. MSRC will not be tracking this issue further, and no additional updates will be provided. 
 
-
+🚨To the Security "Response" Teams:
+​I am writing to formally address the blatant lies contained in your recent assessment. You claim that unauthenticated access to critical infrastructure telemetry "does not meet the bar for servicing," yet your actions over the last 6 hours tell a different story.
+​The Reality Check:
+​The "Non-Vulnerability" Paradox: If this was truly a non-issue, explain why the origin-energy-market-data-hub was hit with an emergency NXDOMAIN erasure at 11:40 AM. One does not commit infrastructure suicide to fix a feature.
+​The Heartbeat Don't Lie: My logs (attached) captured your emergency node rotation at 13:40:12. You were scrambling to rotate SSL certificates while simultaneously typing an email saying there was no risk.
+​The Retaliatory Cowardice: You issued a one-year ban on my account to bury the case, then panically opened Ticket #151005 when you realized I didn't just have a bug—I had the forensic image from March 09 proving 30 days of undetected exposure.
+​The "Bar" for Servicing:
+If your "bar" for security is allowing a single researcher to exfiltrate data 102 times over a month without a single SOC alert, then your "bar" is a liability.
+​I have provided the 6.3GB evidence vault and the GitHub manifest to the AER and ACSC. You can lie to a researcher to avoid a bounty payout, but good luck lying to a federal auditor when they ask why a "safe" system required an emergency total deletion.
