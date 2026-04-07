@@ -43,7 +43,7 @@ Readme update
 
 
 Evidence of Disclosure🚨
-​The following internal configuration was extracted from the live production source at https://138.68.20.131/:
+​The following internal configuration was extracted from the live production source at https://138.68.20.131/
 
 ​window.__OPENCLAW_ASSISTANT_NAME__="Bukhari";
 
