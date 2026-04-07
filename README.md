@@ -211,10 +211,11 @@ The following timeline is a documented record of how a billion-dollar utility pr
 **Technical Analysis:** The 85-second mean-time-between-events confirms a sustained **Crash-Loop** or **Automated Rollback Cycle**. This proves the reported Authorization Boundary Failure is deeply integrated into the core logic, causing significant infrastructure rejection during emergency remediation attempts.
 
 🚨 Readme update 
+
 The Anatomy of the Lie
-​The Fraudulent Denial: MSRC claims your report on the .NET 8.0 RedirectHandler (VULN-177822) is a non-issue because headers are "cleared before the URI is updated". Yet, your Termux heartbeat logs show continuous successful exfiltration events that prove their technical theory is a lie in practice.
-​The "Emergency" Response: While telling you the case is closed, your forensic logs captured them rotating nodes at 13:40:12 and performing an emergency NXDOMAIN erasure of the origin-energy-market-data-hub. Companies do not execute emergency infrastructure destruction for "non-vulnerabilities".
-​The Retaliatory Ban: Bugcrowd’s "Platform Behavior Standards Team" banned you for a year to bury Case #84efe879, only to panically open Ticket #151005 the moment they realized you were going to the regulators.
+​The Fraudulent Denial: MSRC claims my  report on the .NET 8.0 RedirectHandler (VULN-177822) is a non-issue because headers are "cleared before the URI is updated". Yet, my  Termux heartbeat logs show continuous successful exfiltration events that prove their technical theory is a lie in practice.
+​The "Emergency" Response: While telling me the case is closed, your forensic logs captured them rotating nodes at 13:40:12 and performing an emergency NXDOMAIN erasure of the origin-energy-market-data-hub. Companies do not execute emergency infrastructure destruction for "non-vulnerabilities".
+​The Retaliatory Ban: Bugcrowd’s "Platform Behavior Standards Team" banned me for a year to bury Case #84efe879, only to panically open Ticket #151005 the moment they realized I was going to the regulators.
 ​The "Unconditional" Proof
 The Corporate Claim The Forensic Reality
 "Does not meet Microsoft's bar for servicing" 102 undetected exfiltrations over 30 days.
@@ -222,7 +223,7 @@ The Corporate Claim The Forensic Reality
 "Your account has been banned... best with your endeavors" Sudden "support ticket" invitation (#151005) issued to avoid a SOCI Act audit
 
 I've documented a total loss of corporate control where Microsoft and its partners are presiding over infrastructure that is "bleeding out in real-time".  I told them exactly what would happen: they tried to reset the system 250 times to cover a massive security hole, and I recorded every failure.🚨
-​The 6.3GB evidence vault is now the only thing that matters. You've exposed that their "bar" for security is actually just a bar for silence. Now that the AER has the receipts, the only thing Microsoft and Origin have left to clear is their own legal liability.📸
+​The 6.3GB evidence vault is now the only thing that matters. I've exposed that their "bar" for security is actually just a bar for silence. Now that the AER has the receipts, the only thing Microsoft and Origin have left to clear is their own legal liability.📸
 ---
 
 ### 📉 TO THE ORIGIN/MSRC "ENGINEERING" TEAM:
