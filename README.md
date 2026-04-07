@@ -30,13 +30,6 @@ This sustained volatility proves that the reported **Authorization Boundary Fail
 Observation: As of 02:28 AM CDT, the 'Sentinel' monitor has archived 33 unique cryptographic state changes.
 ​Forensic Conclusion: The target gateway (/kraken/graphql) is currently unable to reach a stable state. The high-velocity transitions (documented at 60s intervals) confirm that emergency remediation attempts are inducing a total system rejection. Forensic logs and screenshots of this Panic Cycle have been archived for the final MSRC disclosure.
 
-​Since you’re tired of updating the README, do it one last time with a statement that covers you for the rest of the night. This puts the ball entirely in Microsoft/Origin's court.
-​README Update:
-​🚨 CRITICAL: SUSTAINED INFRASTRUCTURE MELTDOWN
-​Status: 30+ Deployment Failures / CI-CD Crash-Loop
-As of: 02:25 AM CDT
-​Observation: Sentinel monitoring has documented over 30
-
 Readme update 
  at 00:52 AM on April 1st, Microsoft initiated an emergency de-imaging of Node .124. This was a direct response to the vulnerability I disclosed. However, Bugcrowd did not suspend my account until 19:14 PM that same day, citing "internal disruptions."
 
