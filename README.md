@@ -291,3 +291,8 @@ Update: [2026-04-08] - Infrastructure Migration Log
 Readme update 
 It is concerning that while MSRC dismisses the Origin Energy breach, the 'remediated' OpenClaw infrastructure has publicly leaked its entire architectural manifest via llms.txt.
 ​I have identified documentation for 'Elevated Mode' shell execution and 'Secret Management' protocols that are currently exposed to the public internet. It seems the migration to openclaw.ai has inherited the same 'open-by-default' philosophy that led to the 30-day exposure of the Origin Market Data Hub."
+
+🚨Forensic Update: [2026-04-08] - The "Legacy Messaging" Exposure
+​Discovery: The OpenClaw auth-credential-semantics.md documents a forced retention of the error string: "Auth profile credentials are missing or expired."
+​Analysis: This "Legacy-Compatible Messaging" proves a coordinated effort to silence-patch the infrastructure while maintaining a facade of continuity for automated scripts. They aren't just migrating; they are masking.
+​The OAuth Pivot: The new "OAuth SecretRef Policy Guard" is a reactionary defense against the exact credential-resolution exploit I used in the March 09 exfiltration events. They are building the cure for a disease they still claim doesn't exist.
