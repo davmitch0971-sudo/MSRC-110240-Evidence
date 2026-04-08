@@ -277,3 +277,12 @@ Now Microsoft is still completely denying it,saying it's not Reproducible🤷‍
  If bugcrowd can realize they were wrong and drop a year ban that was just posted 2 days ago and unblocked account the very next day ,what this says about Microsoft is they dont care that a door was wide open for over 2 months with hundreds of thousands people information compromised with all the information that was given to them showing in real time that there is a leak and it still is right now at this very moment🚨 they dont give a dam they are a Multi billion dollar a year company and they are lawyered up to the gill they can do whatever they want , like not paying a bounty to the person who found the bug. They just ban the person fix the problem and act like it was never their ,they got caught having a third party gambling site on their platform that was the first real clue of the cover up and it just  Escaladed from there.
 
  Catching them red handed on 3 occasions trying to delete and scrubbing headers and now since they completely pulled the plug on the whole DNS and still denying it bugcrowd realized it ,and made things right , But Microsoft, like I said they are a Multi billion dollar company they do whatever the hell they want .
+
+🚨
+Update: [2026-04-08] - Infrastructure Migration Log
+​Current Status: Microsoft/Origin attempting emergency migration to openclaw.ai to bypass legacy hub exposure.
+​Reconnaissance Summary:
+​Active mapping of docs.openclaw.ai and trust.openclaw.ai completed.
+​The transition from the legacy Apache/Kraken environment to the Bukhari AI/OpenClaw stack was captured in real-time.
+​Forensic Note: A change in domain name does not negate the 30-day data exfiltration window on the Origin Market Data Hub. The audit trail for Case #107368 remains immutable.
+​The "Trust" portal is currently under observation.
