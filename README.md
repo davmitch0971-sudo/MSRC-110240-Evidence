@@ -224,11 +224,19 @@ The Corporate Claim The Forensic Reality
 
 I've documented a total loss of corporate control where Microsoft and its partners are presiding over infrastructure that is "bleeding out in real-time".  I told them exactly what would happen: they tried to reset the system 250 times to cover a massive security hole, and I recorded every failure.🚨
 ​The 6.3GB evidence vault is now the only thing that matters. I've exposed that their "bar" for security is actually just a bar for silence. Now that the AER has the receipts, the only thing Microsoft and Origin have left to clear is their own legal liability.📸
+
+🚨I have just uploaded the following final evidence:
+​FINAL_RAW_SWAP_EVIDENCE.gpg (Encrypted memory dump)
+​Origin_Audit_Log_VULN174056.md (Forensic timeline of 18 undetected strikes)
+​Audit_Integrity_Seal.txt (SHA-256 Hash: 4be946bc3985f7289ebc4b6f6eb848457e9053cfe99440633a3ce30da5d1e245)📸
+
+​The GPG passphrase for the evidence is: smurf
+​The system is currently serving live IIOT telemetry and Supply Status data. This is my final submission of technical evidence before I conclude my audit of the MSRC Case 107368 infrastructure.🚨
 ---
 
 ### 📉 TO THE ORIGIN/MSRC "ENGINEERING" TEAM:
 * **Visibility is Zero:** If a researcher can walk through your front door 100+ times without an alarm going off, you don't have a security team—you have a "Closed" sign on a glass door.
-* **The "Reproduction" Lie:** While you were "attempting to reproduce" the bug, I was documenting your system's final 102 breaths in real-time.
+* **The "Reproduction" Lie:** While you were "attempting to reproduce" the bug, I was documenting your system's final 102 breaths in real-time.⌚
 * **Architecture as a Liability:** Deleting a DNS record is the "Nuclear Option." It is an admission that your code is so fragile it cannot be patched while the lights are on.
 
 > **"A billion-dollar company should not have to commit infrastructure suicide to stop a guy on a phone. If this is the best you can do, maybe it's time to update your resumes instead of your DNS."**
@@ -245,9 +253,12 @@ MSRC prioritizes vulnerabilities that are assessed as an Important or Critical s
 🚨To the Security "Response" Teams:
 ​I am writing to formally address the blatant lies contained in your recent assessment. You claim that unauthenticated access to critical infrastructure telemetry "does not meet the bar for servicing," yet your actions over the last 6 hours tell a different story.
 ​The Reality Check:
+
 ​The "Non-Vulnerability" Paradox: If this was truly a non-issue, explain why the origin-energy-market-data-hub was hit with an emergency NXDOMAIN erasure at 11:40 AM. One does not commit infrastructure suicide to fix a feature.
-​The Heartbeat Don't Lie: My logs (attached) captured your emergency node rotation at 13:40:12. You were scrambling to rotate SSL certificates while simultaneously typing an email saying there was no risk.
-​The Retaliatory Cowardice: You issued a one-year ban on my account to bury the case, then panically opened Ticket #151005 when you realized I didn't just have a bug—I had the forensic image from March 09 proving 30 days of undetected exposure.
+
+​The Heartbeat Don't Lie: My logs (attached) captured your emergency node rotation at 13:40:12. You were scrambling to rotate SSL certificates while simultaneously typing an email saying there was no risk.🚨
+​The Retaliatory Cowardice: You issued a one-year ban on my account to bury the case, then panically opened Ticket #151005 when you realized I didn't just have a bug—I had the forensic image from March 09 proving 30 days of undetected exposure.📸
+
 ​The "Bar" for Servicing:
 If your "bar" for security is allowing a single researcher to exfiltrate data 102 times over a month without a single SOC alert, then your "bar" is a liability.
-​I have provided the 6.3GB evidence vault and the GitHub manifest to the AER and ACSC. You can lie to a researcher to avoid a bounty payout, but good luck lying to a federal auditor when they ask why a "safe" system required an emergency total deletion.
+​I have provided the 6.3GB evidence vault and the GitHub manifest to the AER and ACSC. You can lie to a researcher to avoid a bounty payout, but good luck lying to a federal auditor when they ask why a "safe" system required an emergency total deletion.🚨
