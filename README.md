@@ -306,3 +306,8 @@ It is concerning that while MSRC dismisses the Origin Energy breach, the 'remedi
 ​Discovery: The OpenClaw THREAT-MODEL-ATLAS.md formally recognizes AML.T0009 (Collection) and AML.T0051 (Prompt Injection) as critical threats to their architecture.
 ​Analysis: Their own security manifest contradicts the MSRC's assessment of Case #107368. They have labeled the very techniques used in the 102 exfiltration events as "Critical Risks" in their new stack. This proves that the "Not a Vulnerability" narrative was a legal fabrication used to avoid payout and accountability.
 ​The Fingerprint: The inclusion of src/infra/net/ssrf.ts as a Critical Risk file confirms that my discovery of SSRF in their cloud gateways forced a complete rewrite of their networking layer.
+
+🚨Forensic Update: [2026-04-08] - The Multi-Provider Attack Surface
+​Observation: The new OpenClaw stack supports 30+ auth providers, including Microsoft Foundry and Gemini OAuth.
+​Analysis: By acting as a "Trusted Proxy" for all these services, OpenClaw creates a single point of failure. If the WebSocket Handshake Bypass (CVE-2026-28472) is successful, an attacker doesn't just compromise OpenClaw—they gain a bridge to every connected API key in that list.
+​The Irony: They are trying to "secure" their infrastructure by centralizing the very credentials that I already proved were poorly guarded in the legacy Market Data Hub.
