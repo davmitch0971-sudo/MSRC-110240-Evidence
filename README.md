@@ -296,3 +296,8 @@ It is concerning that while MSRC dismisses the Origin Energy breach, the 'remedi
 ​Discovery: The OpenClaw auth-credential-semantics.md documents a forced retention of the error string: "Auth profile credentials are missing or expired."
 ​Analysis: This "Legacy-Compatible Messaging" proves a coordinated effort to silence-patch the infrastructure while maintaining a facade of continuity for automated scripts. They aren't just migrating; they are masking.
 ​The OAuth Pivot: The new "OAuth SecretRef Policy Guard" is a reactionary defense against the exact credential-resolution exploit I used in the March 09 exfiltration events. They are building the cure for a disease they still claim doesn't exist.
+
+🚨Forensic Update: [2026-04-08] - The "OpenShell" Execution Risk
+​Discovery: The OpenClaw documentation confirms that the new backend relies on an SSH-bridge architecture that bypasses standard Docker isolation (sandbox.docker.binds is unsupported).
+​Analysis: They are trading a "known-leaky" legacy system for a "highly-complex" experimental one. The use of temporary SSH configurations for agent execution creates a new attack surface for Privilege Escalation if the openshell sandbox ssh-config is intercepted or spoofed.
+​The Hypocrisy: While MSRC claims there is "no risk," they are implementing a "Sandbox vs. Elevated" policy framework specifically designed to stop the kind of lateral movement and telemetry exfiltration I successfully performed for 30 days.
