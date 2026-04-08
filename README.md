@@ -301,3 +301,8 @@ It is concerning that while MSRC dismisses the Origin Energy breach, the 'remedi
 ​Discovery: The OpenClaw documentation confirms that the new backend relies on an SSH-bridge architecture that bypasses standard Docker isolation (sandbox.docker.binds is unsupported).
 ​Analysis: They are trading a "known-leaky" legacy system for a "highly-complex" experimental one. The use of temporary SSH configurations for agent execution creates a new attack surface for Privilege Escalation if the openshell sandbox ssh-config is intercepted or spoofed.
 ​The Hypocrisy: While MSRC claims there is "no risk," they are implementing a "Sandbox vs. Elevated" policy framework specifically designed to stop the kind of lateral movement and telemetry exfiltration I successfully performed for 30 days.
+
+🚨Forensic Update: [2026-04-08] - The "ATLAS" Contradiction
+​Discovery: The OpenClaw THREAT-MODEL-ATLAS.md formally recognizes AML.T0009 (Collection) and AML.T0051 (Prompt Injection) as critical threats to their architecture.
+​Analysis: Their own security manifest contradicts the MSRC's assessment of Case #107368. They have labeled the very techniques used in the 102 exfiltration events as "Critical Risks" in their new stack. This proves that the "Not a Vulnerability" narrative was a legal fabrication used to avoid payout and accountability.
+​The Fingerprint: The inclusion of src/infra/net/ssrf.ts as a Critical Risk file confirms that my discovery of SSRF in their cloud gateways forced a complete rewrite of their networking layer.
