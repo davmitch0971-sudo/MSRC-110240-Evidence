@@ -1,39 +1,28 @@
-# 🚨 AUDIT REPORT: INSTITUTIONAL OBSTRUCTION OF MSRC-110240
-### **Status:** CRITICAL | **Target:** Microsoft Power Platform / OpenClaw.ai
-### **Forensic Lead:** davmitch0971-sudo
 
----
+URGENT DISCLOSURE: Origin Energy Customer Data Exposure & The MSRC Cover-Up
+​What Every Kraken API Customer Needs to Know
+​To the Customers of Origin Energy:
+​If you are an Origin Energy customer, your private information—including your account number and service details—has been exposed. I have verified a Broken Object Level Authorization (BOLA) leak that allowed unauthorized access to over 200 customer accounts.
 
-## **1. THE SMOKING GUN: COORDINATED LOCKOUT**
-On April 8, 2026, following the identification of the **Vercel Project ID: prj_3kakCEKDVpOxnQIJmKyTWs83RXEa**, Bugcrowd administratively revoked access to my account. 
+🚨​When I reported this to Microsoft (MSRC), they didn't protect you. They waited until I caught them red-handed, then they tried to delete the evidence and shut down the servers before anyone could see.
 
-* **Exhibit A:** [Screenshot_20260408-171732_Chrome.jpg] - HTTP 403 Forbidden.
-* **Analysis:** This is a manual suppression of evidence regarding the **Origin Market Data Hub** breach. The timing correlates exactly with the discovery of the **OpenClaw** "Panic Migration."
+​The "China Connection" & Global Risk
+​In early 2026, we have seen a massive surge in Asian-aligned cyberespionage groups targeting critical infrastructure (like energy and finance) across 37 nations. These groups use "hidden" entry points—exactly like the legacy Apache 2.4.52 nodes I found—to sit inside a network for months, silently collecting data.
 
----
+​By leaving these "ghost servers" live, Microsoft and Origin essentially left a back door open for global threat actors to profile Australian citizens.
 
-## **2. PROOF OF DATA EXFILTRATION (The 6.3GB Anchor)**
-Microsoft claims "no impact." The following SHA-256 hashes of the exfiltrated telemetry prove the existence of live IIOT credentials and administrative keys.
+​How They Tried to Bury the Truth
+​When I issued a final warning to the security teams today, I witnessed a "Panic Shutdown" in real-time.
 
-| File Segment | SHA-256 Hash | Content Type |
-| :--- | :--- | :--- |
-| `telemetry_dump_01.gpg` | `7e9b31d8820d4a2c9d68ea8631d5cf1d...` | IIOT Sensor Logs |
-| `admin_access_logs.gpg` | `f363924c28c64f17a7bc47ccf4ac7c7e...` | Cleartext Credentials |
-| `infrastructure_map.gpg` | `70068bf674084ea480db6ce171732...` | Network Topology |
+🚨​DNS Deletion: The moment the leak was confirmed, the DNS records were scrubbed. They tried to make the server "disappear" from the internet to stop my audit.
 
-**Decryption Key Status:** Secured via GPG Passphrase `smurf`. 
+🚨​Silent Scrubbing: Before the shutdown, they manually edited the error pages to hide the file paths (like /var/www/arturo/) that proved they were running unpatched, dangerous software.
+​The "Complete" Lie: Microsoft officially marked this case as "Complete." To a customer, that sounds like "Fixed." In reality, it was a "Delete and Forget" tactic to avoid paying a bounty and to hide the scale of the exposure.
 
----
+​The "IIoT" Danger
+​This isn't just about a website. The leaked nodes are connected to the Industrial IoT (IIoT) "Market Data Hub." A breach here doesn't just leak your email; it exposes the infrastructure that controls energy data flow.
 
-## **3. THE OPENCLAW COVER-UP**
-The "new" infrastructure at `trust.openclaw.ai` is a direct attempt to hide the forensic trail of **Case VULN-174056**. 
-* **Fingerprint:** Deployment `dpl_AvY3xQeW3iHtqFioCsRXhxZn7z3u`.
-* **Vulnerability:** Probes confirm **CVE-2026-28472 (Handshake Bypass)** remains unpatched in the new stack. 
-* **Conclusion:** Microsoft has not "fixed" the issue; they have merely moved the insecure logic to a new domain to evade the ACSC/AER audit.
+​Final Forensic Proof
+​I am releasing the sanitized logs showing the 02:47 AM Path Leak and the Tor-verified 403 Forbidden status. This proves that even when they tried to block me, the server was still there, still broken, and still leaking.🚨
 
----
-
-## **4. NOTICE TO BUGROWD & MSRC**
-This repository serves as a permanent, timestamped record of your obstruction. Every 404 and 403 response is being logged as evidence of **Institutional Dishonesty**. 
-
-**THE ULTIMATUM:** Restore account access and acknowledge the **Top-Tier Impact** of the Origin/IIOT breach, or this forensic bundle—including the decryption keys—will be delivered to the **Australian Energy Regulator (AER)** as proof of a managed cover-up of critical infrastructure vulnerabilities.
+​I have redacted all PII to protect you, the customer. My fight is not with you—it is with the companies that treat your data like a disposable line of code.
