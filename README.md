@@ -1,7 +1,9 @@
 
 URGENT DISCLOSURE: Origin Energy Customer Data Exposure & The MSRC Cover-Up
-​What Every Kraken API Customer Needs to Know
-​To the Customers of Origin Energy:
+
+​What Every Kraken API Customer Needs to Know.
+
+🚨​To the Customers of Origin Energy:
 ​If you are an Origin Energy customer, your private information—including your account number and service details—has been exposed. I have verified a Broken Object Level Authorization (BOLA) leak that allowed unauthorized access to over 200 customer accounts.
 
 🚨​When I reported this to Microsoft (MSRC), they didn't protect you. They waited until I caught them red-handed, then they tried to delete the evidence and shut down the servers before anyone could see.
