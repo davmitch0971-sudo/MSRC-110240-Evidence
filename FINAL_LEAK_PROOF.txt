@@ -1,0 +1,7 @@
+HTTP/1.1 401 Unauthorized
+Date: Fri, 27 Mar 2026 19:00:43 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Content-Length: 196
+Content-Type: application/json
+
+{"error":{"code":3,"message":"Unauthorized request","class":"Directus\\Exception\\UnauthorizedException","file":"\/var\/www\/arturo\/admin.arturo-castaneda.com\/src\/helpers\/app.php","line":287}}
